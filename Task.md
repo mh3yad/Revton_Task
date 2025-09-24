@@ -1,23 +1,31 @@
-# add pop-up modal after add to cart using mixin
+# Add Pop-up Modal After Add to Cart Using Mixin
 
-## implementation
-1- research: 8h
-before starting the taks, I have done the following:
-    1- review magento docs:
-        1. layouts
-        2. templates
-        3. js mixin
-        4. magento UI widgets
-    2- read blogs and watch videos on how mixins get implemented
-2- blockers 8h
-    1- first, I tried adding the mixin logic inside my theme, and it kept not working
-        1- either js file not loaded when inspecting browser static files
-        2- owner not found exception
-        3- requireJs not loaded exception (after some time, I realized I have to wait till it loaded)
-        
-3- implementation 6h
-    1- started working on custom module to create basic mixin that's working on the browser
-    2- added modal widget and start manipulating its options
-    3- added logic of modal inside my mixin
+## Implementation
 
-Total: 22h
+### 1. Research (8h)
+
+Before starting the task, I have done the following:
+
+1. Reviewed Magento documentation:
+    - Layouts
+    - Templates
+    - JS Mixins
+    - Magento UI Widgets
+2. Read blogs and watched videos on how mixins are implemented.
+
+### 2. Blockers (8h)
+
+1. Initially, I tried adding the mixin logic inside my theme, but it didn’t work:
+    - JS file was not loaded when inspecting browser static files.
+    - "Owner not found" exception.
+    - `requireJs` not loaded exception (later realized I had to wait until it loaded).
+
+### 3. Implementation (6h)
+
+1. Started working on a custom module to create a basic mixin that works in the browser.
+2. Added modal widget and began manipulating its options.
+3. Added the modal logic inside my mixin.
+
+---
+
+**Total: 22h**
